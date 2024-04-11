@@ -1,4 +1,4 @@
-#sensori Float
+# sensori Float
 ## Sensore di pressione e temperatura
 Il sensore di pressione e temperatura che utilizziamo per il float è il [BAR02](https://bluerobotics.com/store/sensors-sonars-cameras/sensors/bar02-sensor-r1-rp/) 
 della BlueRobotics. 
@@ -13,3 +13,6 @@ altrimenti si procede alla vecchia maniera e dalla sezione Strumenti si selezion
 
 ## Collegamento della scheda al sensore 
 Come già detto il sensore utilizza il protocollo i2c, quindi assicurati di connettere in manieria coerente tutti i cavi, leggendo il [retro dell'i2c](https://bluerobotics.com/wp-content/uploads/2016/11/level-converter-function-diagram-edit.png) converter e il [Pin out](https://docs.arduino.cc/resources/pinouts/ABX00053-full-pinout.pdf) della scheda arduino.
+
+## Script 
+Per far funzionare lo script bisogna installare il modulo ms5837 specifico del sensore bluerobotics dall'apposita sezione paccjetti dell'IDE. 
