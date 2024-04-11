@@ -2,8 +2,8 @@
 ## Sensore di pressione e temperatura
 Il sensore di pressione e temperatura che utilizziamo per il float è il [BAR02](https://bluerobotics.com/store/sensors-sonars-cameras/sensors/bar02-sensor-r1-rp/) 
 della BlueRobotics. 
-Il sensore utilizza il protocollo i2c per la comunicazione, quindi sfrutta le porte SCL e SDA della scheda (oltre che alimentazionew e ground)
-Inoltre, nonostante il sensore lavori di fattpo a tensioni che vanno da 3.3v a 5v, per il momento utilizzaimo un [i2c level converter](https://bluerobotics.com/store/comm-control-power/tether-interface/level-converter-r1/) per connetterlo all'arduino nano 
+Il sensore utilizza il protocollo i2c per la comunicazione, quindi sfrutta le porte SCL e SDA della scheda (oltre che alimentazione e ground)
+Inoltre, nonostante il sensore lavori di fatto a tensioni che vanno da 3.3v a 5v, per il momento utilizzaimo un [i2c level converter](https://bluerobotics.com/store/comm-control-power/tether-interface/level-converter-r1/) per connetterlo all'arduino nano 
 in modo da connettere fisicamente il connettore del sensore alla scheda.
 ### Arduino e IDE
 La scheda che utiliziamo nel float è un [Arduino Nano RP2040 Connect](https://docs.arduino.cc/hardware/nano-rp2040-connect/), perciò per scrivere i programmi e 
