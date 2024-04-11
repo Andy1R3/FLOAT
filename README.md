@@ -10,3 +10,6 @@ La scheda che utiliziamo nel float è un [Arduino Nano RP2040 Connect](https://d
 successivamente caricarli nella scheda è necessario utilizzare l'[ambiete di programmazione integrato proprietario](https://www.arduino.cc/en/software).
 Con le ultime verisoni dell'ide, da quello che ho capito, la scheda, a seuguito dell'installazione dell'Arduino Mbed OS Nano Boards, dovrebbe riconoscere automaticamente la scheda e connettersi; 
 altrimenti si procede alla vecchia maniera e dalla sezione Strumenti si seleziona a mano la specifica scheda e la porta COM con cui avviene il collegamento.
+
+## collegamento della scheda al sensore 
+Come già detto il sensore utilizza il protocollo i2c, quindi assicurati di connettere in manieria coerente tutti i cavi, leggendo il retro dell'i2c converter e il [Pin out](https://docs.arduino.cc/resources/pinouts/ABX00053-full-pinout.pdf) della schjeda arduino
